@@ -13,8 +13,8 @@ axios
   .then(response => {
     console.log("response", response.data.topics);
     const topicTab = response.data.topics;
-    topicTab.forEach(tag => {
-      topics.appendChild(tab(response.data));
+    topicTab.forEach(topic => {
+      topics.appendChild(tab(topic));
     });
   })
   .catch(error => {
@@ -31,7 +31,7 @@ function tab(topic) {
 
   tab.classList.add("tab");
 
-  tab.textContent = topic.topics;
+  tab.textContent = topic;
 
   return tab;
 }
