@@ -1,0 +1,14 @@
+1. What is the DOM?
+The DOM is the Document Object Model and is a visual representation of the html file. The DOM is used to translate the HTML into the browser. The DOM is where the JavaScript happens.
+
+2. What is an event?
+Events  are the things that happen to HTML elements - either things the user does or the browser does. JS allows us to execute code around events when we add event listeners to the HTML.
+
+3. What is an event listener?
+An event listener is an attribute added to HTML so that the program can “listen” for an event to happen and then execute the corresponding code. For example, do x functions when mouse is  clicked or page is loaded.
+
+4. Why would we convert a NodeList into an Array?
+While we can use forEach method to iterate over the NodeList (which is not an actual Array), we would convert into a proper Array (using Array.from) to utilize the full range of array methods.
+
+5. What is a component?
+A  component is small chunk of code that is stand alone and can be used many times (eg is reusable). It enables us to quickly create  more of that enclosed functionality and have everything work.
